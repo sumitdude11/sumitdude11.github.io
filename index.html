@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='cs/css1.css')}}" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll">
+
+<!--navbar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<!--  <nav class="navbar navbar-inverse navbar-expand-sm bg-dark navbar-dark sticky-top" style="width: 1300px">    -->
+     <div class="container-fluid">
+
+     <ul class="nav navbar-nav" style="border-color:  aqua">
+         <li class="active" ><a href="#"><span class="glyphicon glyphicon-home">AIM</span></a></li>
+
+         <li><a href="#j1"><span class="glyphicon glyphicon-book">COMPETENCIES</span></a></li>
+         <li>
+           <a href="#j2"><span class="glyphicon glyphicon-tower">EDUCATION</span></a>
+       </li>
+       <li class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-calendar">PROJECTS<span class="caret"></span></span></a>
+
+           <ul class="dropdown-menu" style="background-color:black ;border-color: aqua">
+               <li style="border-color: aqua"><a href="#j31"><p class="bg-info">SRAJAN</p></a></li>
+               <li style="border-color: aqua"><a href="#j31"><p class="bg-info">calculator</p></a></li>
+           </ul>
+       </li>
+
+       <li>
+           <a href="#j4"><span class="glyphicon glyphicon-user">HOBBIES</span></a>
+       </li>
+               <li class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown">
+               <span class="glyphicon glyphicon-education" ><strong>CERTIFICATES</strong><span class="caret"></span></span>
+           </a>
+           <ul class="dropdown-menu" style="background-color:black ;border-color:  aqua">
+               <li ><a href="#j51"><p class="bg-info">ISTE</p></a></li>
+               <li ><a href="#j51"><p class="bg-info">MORE...</p></a></li>
+           </ul>
+          </li>
+       <li><a href="#j6"><span class="glyphicon glyphicon-info-sign">DETAILS</span></a></li>
+         <li>  &nbsp&nbsp   </li>
+         <li>  &nbsp &nbsp&nbsp</li>
+         <li>
+    <a href="https://www.facebook.com/profile.php?id=100017883317924" target="_self">
+        <i class="fa fa-facebook" style="font-size: 15px"></i>
+    </a></li>
+         </li>&nbsp</li>
+<!--Social Media Content
+============================================= -->
+<!-- #social-media-content end -->
+<!--Social Media Content
+============================================= -->
+         <li><a href="https://twitter.com/" target="_self">
+            <span><i class="fa" style="font-size:20px">&#xf081;</i></span>
+    </a>
+<!-- #social-media-content end --></li>
+    <li>
+    <a href="https://myaccount.google.com/" target="_self">
+       <i class="fa fa-google-plus" style="font-size:15px"></i>
+    </a>
+    </li>
+         <li>
+    <a href="https://www.linkedin.com/feed/" target="_self">
+        <i class="fa fa-linkedin-square" style="font-size:20px"></i>
+    </a></li>
+     </ul>
+    </div>
+ </nav><br><br><br>
+<table style="color:black;background-color: azure;font-size:25px ;height:60px" width="1270px" >
+    <tr><th> </th>
+     <th><p style="margin-left: 10px;font-size: 35px">SUMIT<br>RATHORE</p></th>
+   <td colspan="50">    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspsumitrathore1108@gmail.com<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbspMOB No.  :: 9521420098</td>
+    <td align="right" style="font-size:20px"><a>HOME</a>|SITEMAP|
+    </td></tr>
+</table><br>
+<br><br><br>
+<h2 align="center"  style="font-size: 75px;color: orangered;margin-left: -505px">E</h2>
+<p align="center" style="margin-left:10px; margin-top:-50px"><p style="color: orangered;margin-left:190px;font-size:20px" align="center">&nbsp ngineers are a significant source of technological innovation
+and expertise.</p><br><p align="center" style="margin-left:150px;font-size:20px;  margin-top:-50px"><br>&nbsp&nbsp&nbsp&nbsp&nbspThey focus their brainpower on solving problems through
+the application of <br>science and mathematics, discovering new ways to make life better for the general
+<br>public. The goals and objectives of engineers revolve around creating <br>
+processes and designs, as well as maintenance and operations<br>
+duties in a variety of different disciplines.</p><br><br><br>
+
+
+
+<div class="container" style="width: 450px">
+<!-- carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- indicator-->
+<ul class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+<li data-target="#myCarousel" data-slide-to="3"></li>
+<li data-target="#myCarousel" data-slide-to="4"></li>
+<li data-target="#myCarousel" data-slide-to="5"></li>
+</ul>
+<!-- wraper for slides-->
+<div class="carousel-inner">
+<div class="item active">
+<img src="{{ url_for('static',filename="image/s2.jpg" )}}" alt="team" style="width:1290px;height:350px">
+</div>
+
+<div class="item" align="center">
+<img src="{{ url_for('static',filename="image/s4.jpg" )}}" alt="team" style="width:1290px;height:350px">
+</div>
+
+<div class="item" align="center">
+<img src="{{ url_for('static',filename="image/s3.jpg" )}}" alt="team" style="width:1290px;height:350px">
+</div>
+
+<div class="item" align="center">
+<img src="{{ url_for('static',filename="image/s5.jpg" )}}" alt="team" style="width:1290px;height:350px">
+</div>
+
+<div class="item" align="center">
+<img src="{{ url_for('static',filename="image/s6.png" )}}" alt="team" style="width:1290px;height:350px">
+</div>
+
+<div class="item" align="center">
+<img src="{{ url_for('static',filename="image/s7.png" )}}" alt="team" style="width:1290px;height:350px ">
+</div>
+
+<!-- left and right controls-->
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+
+    <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+
+    <span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+</div>
+
+
+<b style="font-size: 55px;margin-left:150px; font-family: times new roman">Objective:</b><br><br>
+<p style="margin-left:150px;font-size: 20px ">seeking position in a
+    high quality engineering environment where<br> my resourceful
+    experience and conceptual understandings will add<br> value to organisational operations.
+<br><br><br><br><br>
+    <p id="j1"><br><br></p>
+    <b style="font-size: 55px;margin-left:50px; font-family: times new roman">Technical/Functional<br>&nbsp&nbsp&nbspCompetencies:</b><br>
+<ul style="margin-left:150px;font-size: 20px"><br><br>
+<li>Knowledge of computer languages namely C,C++,python,html,basic javascript,bootstrap,arduino,css</li>
+<li>extensive kowledge on database learning </li>
+<li>exploring python and machine learning</li>
+<li>able to work on operating systems namely Window 7,8,10,XP </li>
+</ul><br><br><br><br>
+<b style="font-size: 55px;margin-left:150px; font-family: times new roman">Personal Competencies:</b><br><br><br><br>
+<img class="img-circle" src="{{ url_for('static',filename='image/s6.jpg') }}" align="right"  style="margin-right: 49px" width="321px"></div>
+<ul style="margin-left:150px;font-size: 20px "><li><h1>Learnability</h1></li><br><br>
+    <li><h1>result oriented</h1></li>
+</ul><br><br>
+<p id="j2"><br><br><br><br><br><br></p>
+<b style="font-size: 55px;margin-left:150px; font-family: times new roman">Education:</b><br>
+<h1 style="margin-left:150px">Schooling:</h1>
+<h2 style="margin-left:150px">10th class: 9.4CGPA</h2>
+<h2 style="margin-left:150px">12th class: 84.8%</h2>
+<h1 style="margin-left:150px">B.Tech:</h1>
+<h2 style="margin-left:150px">1st Year: 6.83 CGPA</h2><br><br>
+<p id="j31"><br><br><br><br><br><br><br><br>
+<b style="font-size: 55px;margin-left:150px; font-family: times new roman">PROJECTS:</b><br>
+<ol><br>
+    <li><h2 style="margin-left:150px">Calculator using tkinter</h2>
+    </li>
+<br><br>
+<p align="center"><img src="{{ url_for('static',filename='image/cal.jpg') }}" width="321px">
+</p>
+<br><br><br>
+    <li><h2 style="margin-left:150px">Automation of home appliances</h2>
+    </li>
+</ol><br><br></p>
+<p align="center"><img src="{{ url_for('static',filename='image/i3.jpg') }}" width="721px">
+</p><br><br><br><br>
+<h1>Chatter Boat (in progress)</h1></p>
+<p align="center">
+<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/edf1c58b-cf0a-4c91-9a32-f939280c2152">
+</iframe></p>
+
+
+<p id="j4"><br><br><br><br><br><br><br><br></p>
+<b  style="font-size: 55px;margin-left:150px; font-family: times new roman">HOBBIES:</b><br>
+<img class="img-rounded" src="{{ url_for('static',filename='image/s8.jpg') }}" align="right" style="margin-right: 29px" width="321px">
+<ol style="margin-left:150px"><br><br>
+    <li><h2 style="margin-left:150px">To write Quotes</h2></li><br>
+    <li><h2 style="margin-left:150px">to play cricket</h2></li>
+</ol><br><br><br><br><div class="container-fluid">
+    <p id="j51"><br><br><br><br><br><br><br><br>
+<b  style="font-size: 55px;margin-left:150px; font-family: times new roman">Certificates:</b><br><br><br>
+<p  align="center"><img src="{{ url_for('static',filename='image/i5.jpg') }}" width="721px"></p><br><br>
+<p align="center"><img src="{{ url_for('static',filename='image/i1.jpg') }}" width="721px"></p><br><br>
+<p align="center"><img src="{{ url_for('static',filename='image/i2.jpg') }}" width="721px"></p><br><br>
+<p align="center"><img src="{{ url_for('static',filename='image/i4.jpg') }}" width="721px"></p><br><br></p>
+
+<p id="j6"><br><br><br><br><br><br><br><br></p>
+<b  style="font-size: 55px;margin-left:150px; font-family: times new roman">Details:</b><br><br><br><pre>
+<h2 style="margin-left:150px">DATE OF BIRTH:  &nbsp&nbsp&nbsp   11-08-1999  </h2>
+<h2 style="margin-left:150px">COLLEGE: &nbsp&nbsp&nbsp          MANIT BHOPAL </h2>
+<h2 style="margin-left:150px">Father's Name:&nbsp&nbsp&nbsp     Dinesh Rathore  </h2>
+<h2 style="margin-left:150px">Branch:  &nbsp&nbsp&nbsp          Computer science </h2>
+<h2 style="margin-left:150px">Nationality:  &nbsp&nbsp&nbsp     Indian</h2>
+<h2 style="margin-left:150px">college session:  &nbsp&nbsp&nbsp (2018-2022)</h2>
+<h2 style="margin-left:150px">Permanent address:  &nbspJhansi Tiraha,Shivpuri(M.P) </h2>
+<h2 style="margin-left:150px">Temporary address:  &nbsp&nbsp    MANIT BHOPAL  </h2><br>
+    <table><tr></tr><tr></tr><tr><td><h1>I certify that the above particulars are true to the best<br> of my knowledge and belief.</h1></td></tr>
+<tr></tr><tr></tr><tr><td><h1><span class="glyphicon glyphicon-hand-left"></span> SUMIT RATHORE    &nbsp&nbsp&nbsp&nbsp                  BHOPAL <span class="glyphicon glyphicon-hand-right"></span></h1></td></tr></table>
+</pre></div>
+</body>
+</html>
